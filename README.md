@@ -114,6 +114,11 @@ vim backend.tf
 ![backend tf](./.Images/change_region_backend_file.png)
 
 $\color{blue} \textbf {Create \ Infra:}$
+
+````
+aws configure --profile eks
+````
+
 ````
 terraform init
 terraform plan
